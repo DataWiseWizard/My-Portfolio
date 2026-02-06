@@ -9,9 +9,8 @@ import { ExperienceSection } from '@/components/experience/ExperienceSection'
 const Footer = () => (
   <footer className="border-t border-white/10 py-8 mt-12 text-center text-gray-600 text-sm">
     <div className="flex justify-center gap-6 mb-4">
-      <a href="#" className="hover:text-blue-400 transition-colors">GitHub</a>
-      <a href="#" className="hover:text-blue-400 transition-colors">LinkedIn</a>
-      <a href="#" className="hover:text-blue-400 transition-colors">Email</a>
+      <a href="https://github.com/DataWiseWizard" className="hover:text-blue-400 transition-colors">GitHub</a>
+      <a href="https://www.linkedin.com/in/rudraksha-kumbhkar-269aa9297/" className="hover:text-blue-400 transition-colors">LinkedIn</a>
     </div>
     <p>© {new Date().getFullYear()} - Engineering Portfolio</p>
   </footer>
